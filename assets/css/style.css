@@ -436,6 +436,7 @@ section {
 
   display: flex;
   justify-content: center;
+  width: 77vw;
 }
 
 .section-title h2 {
@@ -553,8 +554,9 @@ section {
 
 .about .image {
   background: url("../img/about.jpg") center center no-repeat;
-  background-size: cover;
+  background-size: contain; 
   min-height: 400px;
+
 }
 
 @media (max-width: 667px) {
